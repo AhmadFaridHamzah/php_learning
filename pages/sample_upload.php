@@ -5,7 +5,7 @@
   	// print_r($_FILES['uploaded_file']);
   	// echo "</pre>";
   	// die();
-    $target_dir = "assets/upload/"; //yg ni kena create folder directory ni dulu dekat folder project
+    $target_dir = "assets/upload/"; //yg ni kena create folder directory ni dulu dekat folder project kita
 	$target_file = $target_dir . basename($_FILES["uploaded_file"]["name"]);
 
 	//print_r($target_file);
